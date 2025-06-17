@@ -1,4 +1,4 @@
-# Edacy-Formation
+# GESTION PRODUITS
 Application web de gestion de produits permettant de gérer des produits et leurs catégories.
 
 # Fonctionnalités
