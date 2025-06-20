@@ -29,7 +29,8 @@ j'ai aussi la classe **GDContext** qui permet d’interagir avec la base de donn
 Il faut creer la migration avec la commande **add-migration v1** ensuite faire **update-database** pour les tables soit creer.
 <img width="570" alt="image" src="https://github.com/user-attachments/assets/cf986c7f-8bbc-4779-9aa1-a2c4362b6a2b" />
 on a utiliser swagger pour l'api et Jwt pour l'authentification
-Pour les tests on a :
+
+## Pour les tests on a :
 --Connexion 
 <img width="638" alt="image" src="https://github.com/user-attachments/assets/8de308e5-cf8f-40cc-b2b9-afadcad23e38" />
 --Inscription 
@@ -42,7 +43,9 @@ Pour les tests on a :
 --Produit par Id
 <img width="686" alt="image" src="https://github.com/user-attachments/assets/874ad765-e9f0-42a0-9f35-a4e0cbdbc30f" />
 
-Pour le Front j'ai utiliser Angular 19 j'ai mis le projet dans la branche **branch1**
+## Pour le Front j'ai utiliser Angular 19 j'ai mis le projet dans la branche **branch1**
+<img width="209" alt="image" src="https://github.com/user-attachments/assets/6b6090cb-c24c-4044-905c-5fdca850cdd2" />
+
 --Page de connexion 
 <img width="755" alt="image" src="https://github.com/user-attachments/assets/c2c6ae18-7b81-4023-a6c3-83fa6ab6a337" />
 --Inscription 
