@@ -1,0 +1,28 @@
+<h2>Créer un produit</h2>
+
+<form [formGroup]="form"  class="p-4 card" (ngSubmit)="onSubmit()">
+  <div class="mb-3">
+    <label>Nom</label>
+    <input class="form-control" formControlName="nom" />
+  </div>
+    <div class="mb-3">
+    <label>Description</label>
+    <input class="form-control" formControlName="description" />
+  </div>
+   <div class="mb-3">
+    <label>Code</label>
+    <input class="form-control" formControlName="code" />
+  </div>
+  <div class="mb-3 hidden">
+    <label>Catégorie</label>
+    <input type="number" class="form-control" formControlName="categorieId" readonly/>
+  </div>
+
+  <div class="mb-3">
+    <label>Prix </label>
+    <input type="number" class="form-control" formControlName="prix" />
+  </div>
+
+  <button class="btn btn-primary" [disabled]="form.invalid">Enregistrer</button>
+</form>
+

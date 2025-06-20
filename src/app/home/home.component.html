@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <ul class="menu">
+    <li class="dropdown">
+      <a href="#">Utilisateur</a>
+      <ul class="submenu">
+        <li><a routerLink="/register">Inscription</a></li>
+        <li><a routerLink="/listUsers">Liste des utilisateurs</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Produit</a>
+      <ul class="submenu">
+        <li><a routerLink="/createProduit">Créer produit</a></li>
+        <li><a routerLink="/prods">Liste des produits</a></li>
+      </ul>
+    </li>
+
+    <li class="dropdown">
+      <a href="#">Catégorie</a>
+      <ul class="submenu">
+        <li><a routerLink="/">Créer catégorie</a></li>
+        <li><a routerLink="/listCategory">Liste des catégories</a></li>
+      </ul>
+    </li>
+  </ul>
+   <div class="login-button">
+    <button routerLink="/login">Connexion</button>
+  </div>
+</nav>
