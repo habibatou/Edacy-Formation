@@ -1,0 +1,40 @@
+<h2>Liste des produits</h2>
+<br>
+<div class="p-3">
+    <div class="card-body">
+        <table class="table">
+          <thead>
+            <th>Nom</th><th>Desciption</th><th>Prix</th><th>Actif</th><th>Action</th>
+          </thead>
+          @if(produits){
+            <tbody>
+                @for(p of produits; track p){
+                    <tr> 
+                        <td> {{p.nom}}</td>
+                        <td> {{p.description}}</td>
+                        <td> {{p.prix}}</td>
+                        <td>
+                            @if(p.actif){
+                                <i class="bi bi-check-circle"></i>
+                            }
+                            @else{
+                                <i class="bi bi-circle"></i>
+                            }    
+                        </td>
+                        <td>
+                            <button (click)="handleDelete(p)" class="btn btn-outline-danger">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                            |
+                         <button (click)="handleEdit(p)" class="btn btn-outline-secondary">
+                                <i class="bi bi-pen"></i>
+                            </button>
+                        </td>
+                    </tr>
+                }
+              </tbody> 
+          }
+       
+        </table>
+    </div>
+    </div>

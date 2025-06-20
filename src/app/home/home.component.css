@@ -1,0 +1,72 @@
+.navbar {
+  background-color: #2c3e50;
+  display: flex;
+  justify-content: space-between; /* ← sépare le menu et le bouton */
+  align-items: center;
+  padding: 0 20px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu > li {
+  position: relative;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu > li:hover {
+  background-color: #34495e;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #ecf0f1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 180px;
+  z-index: 1000;
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  background-color: #bdc3c7;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+
+/* Style du bouton Connexion */
+.login-button button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button button:hover {
+  background-color: #2980b9;
+}
